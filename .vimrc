@@ -10,4 +10,8 @@ set ruler
 set cursorline
 set visualbell
 
+if $COLORTERM == 'gnome-terminal'
+  set t_Co=256
+endif
+
 colorscheme xoria256
