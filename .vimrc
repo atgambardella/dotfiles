@@ -7,7 +7,6 @@ set autoindent
 set relativenumber
 set ruler
 set cursorline
-set visualbell
 
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
