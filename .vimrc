@@ -8,6 +8,8 @@ set relativenumber
 set ruler
 set cursorline
 
+set re=0
+
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
 endif
